@@ -6,7 +6,11 @@ In this workshop we build a media agent where a lightweight agent running on a C
 
 ## Outline
 
-_Coming soon._
+1. **Setup and why: CPU for the agent, GPUs for the models** (10 min)
+2. **First tool:** wrap a text-to-image model on a Nebius Serverless Endpoint as `generate_image(spec)`, which returns an Object Storage link (20 min)
+3. **CPU agent as the control plane:** take a brief and decide which tools to call, then add text-to-speech as a second tool via MCP (25 min)
+4. **Endpoint vs Job:** run the same generation as a batch Job for 50 records and compare latency and cost per asset (20 min)
+5. **What's next:** the capstone (Personalized Media Factory), plus Q&A (15 min)
 
 ## Prerequisites
 
