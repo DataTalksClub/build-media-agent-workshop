@@ -1,0 +1,22 @@
+[project]
+name = "nebius-agent"
+version = "0.1.0"
+description = "PydanticAI media agent with one OpenAI-compatible imagegen tool (Qwen-Image + Sana on Nebius)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic-ai>=0.4.0",
+    "openai>=1.0.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+    "truststore>=0.8.0",
+    "pillow>=10.0.0",
+    "jupyter>=1.0.0",
+    "ipykernel>=6.0.0",
+]
+
+[tool.ruff]
+line-length = 100
+
+[dependency-sources]
+# empty — default PyPI
